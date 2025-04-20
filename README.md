@@ -1,39 +1,100 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PC-Jockel – Meine Builds</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC-Jockel Builds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; background: #111; color: #eee; }
-    header, footer { text-align: center; padding: 2rem; }
-    main { max-width: 1000px; margin: auto; padding: 1rem; }
-    .build { background: #222; margin: 2rem 0; padding: 1rem; border-radius: 1rem; }
-    .build img { max-width: 100%; border-radius: .5rem; }
-    a.button { display: inline-block; margin-top: 1rem; padding: .5rem 1rem; background: #00cc99; color: white; text-decoration: none; border-radius: .5rem; }
-    h2, p { margin: 0.5rem 0; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #00ffcc;
+      margin-bottom: 1rem;
+    }
+    .build {
+      margin-bottom: 4rem;
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 1.5rem;
+      background-color: #1a1a1a;
+      box-shadow: 0 0 10px rgba(0,255,204,0.1);
+    }
+    .build img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    a {
+      color: #00ccff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .build-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    @media (min-width: 768px) {
+      .build-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Willkommen bei PC-Jockel 👋</h1>
-    <p>Hier findest du meine persönlichen Builds mit Bildern und Geizhals-Links.</p>
-  </header>
-  <main>
+  <h1>PC-Jockel Builds</h1>
+  <p>Ausgewählte Builds, zusammengestellt mit <a href="https://geizhals.de" target="_blank">Geizhals</a>. Mit Liebe und Präzision.</p>
 
-    <!-- EIN BUILD -->
-    <section class="build">
-      <h2>🏆 High-End Gaming Build</h2>
-      <p>Mit RTX 4070 SUPER, perfekt für 1440p / 4K Gaming.</p>
-      <img src="https://cdn.discordapp.com/attachments/123456789/987654321/build4070super.jpg" alt="4070 SUPER Gaming PC Build"/>
-      <a class="button" href="https://geizhals.de/wishlists/4408887" target="_blank">Zum Build auf Geizhals</a>
-    </section>
-
-    <!-- WEITERE BUILDS FOLGEN HIER NACH DEMSELBEN MUSTER -->
-
-  </main>
-  <footer>
-    <p>Made with ❤️ by PC-Jockel – <a href="https://github.com/deinname">GitHub</a></p>
-  </footer>
+  <div class="build-list">
+    <div class="build">
+      <h2>Einsteiger Gaming</h2>
+      <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Einsteiger Gaming Build">
+      <p><a href="https://geizhals.de/wishlists/4408887" target="_blank">Geizhals Wunschliste ansehen</a></p>
+    </div>
+    <div class="build">
+      <h2>Midrange Gaming</h2>
+      <img src="https://images.unsplash.com/photo-1612929634421-0d7f13361b27" alt="Midrange Gaming Build">
+      <p><a href="https://geizhals.de/wishlists/4408922" target="_blank">Geizhals Wunschliste ansehen</a></p>
+    </div>
+    <div class="build">
+      <h2>Highend Gaming</h2>
+      <img src="https://images.unsplash.com/photo-1612551052553-9cbb3e4749ad" alt="Highend Gaming Build">
+      <p><a href="https://geizhals.de/wishlists/4408923" target="_blank">Geizhals Wunschliste ansehen</a></p>
+    </div>
+    <div class="build">
+      <h2>Creator Build</h2>
+      <img src="https://images.unsplash.com/photo-1620220404701-97c0d2875d80" alt="Creator Build">
+      <p><a href="https://geizhals.de/wishlists/4408924" target="_blank">Geizhals Wunschliste ansehen</a></p>
+    </div>
+    <div class="build">
+      <h2>Ultimate Workstation</h2>
+      <img src="https://images.unsplash.com/photo-1630401431100-42a375c8a5a4" alt="Ultimate Workstation">
+      <p><a href="https://geizhals.de/wishlists/4408925" target="_blank">Geizhals Wunschliste ansehen</a></p>
+    </div>
+    <div class="build">
+      <h2>Preis-Leistungs Knaller</h2>
+      <img src="https://images.unsplash.com/photo-1626785774573-4d6a4cfab504" alt="Budget Beast">
+      <p><a href="https://geizhals.de/wishlists/4427631" target="_blank">Geizhals Wunschliste ansehen</a></p>
+    </div>
+    <div class="build">
+      <h2>Peripherie & Zubehör</h2>
+      <img src="https://images.unsplash.com/photo-1619441207979-843d674e0b69" alt="Peripherie">
+      <p><a href="https://geizhals.de/wishlists/4427677" target="_blank">Geizhals Wunschliste ansehen</a></p>
+    </div>
+  </div>
 </body>
 </html>
