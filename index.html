@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PC Jockel - Builds</title>
+    <title>PC Jockel - PC Builds</title>
     <style>
-        /* Grundlegendes Layout und Styling */
+        /* Gesamtes Stylesheet */
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #1c1c1c;
-            color: #f0f0f0;
             margin: 0;
             padding: 0;
+            background-color: #1c1c1c;
+            color: #f0f0f0;
         }
 
         header {
@@ -22,27 +22,29 @@
             text-align: center;
         }
 
-        h1 {
+        header h1 {
             color: #ff9800;
+            margin: 0;
         }
 
         .category {
-            margin: 20px 0;
             padding: 20px;
-            border-radius: 10px;
+            margin: 20px 0;
             background-color: #333;
+            border-radius: 8px;
         }
 
         .category h2 {
-            text-align: center;
             color: #ff9800;
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         .build-list {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
-            gap: 20px;
+            justify-content: space-evenly;
+            gap: 15px;
         }
 
         .build-item {
@@ -50,7 +52,8 @@
             padding: 15px;
             border-radius: 8px;
             width: 30%;
-            transition: all 0.3s ease;
+            text-align: center;
+            transition: 0.3s;
         }
 
         .build-item:hover {
@@ -60,34 +63,32 @@
 
         .build-item img {
             width: 100%;
-            height: auto;
             border-radius: 8px;
+            height: auto;
         }
 
         .build-item h3 {
-            margin-top: 10px;
             color: #ff9800;
-            text-align: center;
+            margin-top: 10px;
         }
 
         .build-item p {
             color: #bbb;
-            text-align: center;
+            margin-top: 10px;
         }
 
         .build-item a {
-            display: block;
-            text-align: center;
-            margin-top: 10px;
-            color: #ff9800;
             text-decoration: none;
+            color: #ff9800;
+            margin-top: 10px;
+            display: block;
+            transition: color 0.3s ease;
         }
 
         .build-item a:hover {
-            color: #fff;
+            color: white;
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             .build-item {
                 width: 45%;
@@ -103,9 +104,8 @@
 </head>
 
 <body>
-
     <header>
-        <h1>PC Builds by PC-Jockel</h1>
+        <h1>PC Jockel - PC Builds</h1>
     </header>
 
     <!-- Einsteiger Build -->
@@ -116,9 +116,9 @@
                 <img src="https://via.placeholder.com/400x300.png?text=Build+1" alt="Einsteiger Build 1">
                 <h3>PC Build 1</h3>
                 <p>Ideal für den Einstieg! Schneller und günstiger Gaming-PC.</p>
-                <a href="https://geizhals.de/wishlists/4408887">Jetzt Kaufen</a>
+                <a href="https://geizhals.de/wishlists/4408887" target="_blank">Jetzt Kaufen</a>
             </div>
-            <!-- Weitere Einsteiger Builds hier hinzufügen -->
+            <!-- Weitere Builds hier hinzufügen -->
         </div>
     </section>
 
@@ -130,9 +130,9 @@
                 <img src="https://via.placeholder.com/400x300.png?text=Build+2" alt="Midrange Build 1">
                 <h3>PC Build 2</h3>
                 <p>Ideal für Gaming und anspruchsvolle Anwendungen.</p>
-                <a href="https://geizhals.de/wishlists/4408922">Jetzt Kaufen</a>
+                <a href="https://geizhals.de/wishlists/4408922" target="_blank">Jetzt Kaufen</a>
             </div>
-            <!-- Weitere Midrange Builds hier hinzufügen -->
+            <!-- Weitere Builds hier hinzufügen -->
         </div>
     </section>
 
@@ -144,9 +144,9 @@
                 <img src="https://via.placeholder.com/400x300.png?text=Build+3" alt="Highend Build 1">
                 <h3>PC Build 3</h3>
                 <p>Für extrem leistungsfähige Gaming- und Workstation-Anwendungen.</p>
-                <a href="https://geizhals.de/wishlists/4408923">Jetzt Kaufen</a>
+                <a href="https://geizhals.de/wishlists/4408923" target="_blank">Jetzt Kaufen</a>
             </div>
-            <!-- Weitere Highend Builds hier hinzufügen -->
+            <!-- Weitere Builds hier hinzufügen -->
         </div>
     </section>
 
