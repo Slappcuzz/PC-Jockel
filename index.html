@@ -1,102 +1,46 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PC Jockel Builds</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #0d0d0d;
-      color: #f5f5f5;
-      line-height: 1.6;
-    }
-    header {
-      padding: 2rem;
-      text-align: center;
-      background: #1a1a1a;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    .container {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-    section.build {
-      background: #1a1a1a;
-      border-radius: 16px;
-      padding: 1.5rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-    }
-    section.build h2 {
-      margin-top: 0;
-      font-size: 1.5rem;
-      color: #00ccff;
-    }
-    section.build img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      margin: 1rem 0;
-    }
-    a {
-      color: #00ccff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC-Jockel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verlinkung der CSS-Datei -->
+    <script src="scripts.js" defer></script> <!-- Verlinkung der JS-Datei -->
 </head>
 <body>
-  <header>
-    <h1>🔥 PC Jockel Builds 🔧</h1>
-  </header>
-  <div class="container">
 
-    <section class="build">
-      <h2>💰 Einsteiger-Build (~950 €)</h2>
-      <img src="https://cdn.idealo.com/folder/Product/2013/8/2013866/s11_produktbild_max/geforce-rtx-4060-ti.jpg" alt="Einsteiger PC Build">
-      <p><a href="https://geizhals.de/wishlists/4427677" target="_blank">Zur Wunschliste auf Geizhals</a></p>
-    </section>
+    <!-- Header -->
+    <header>
+        <h1>PC-Beratung von Raphael / Slappcuzz</h1>
+        <p>Gaming-Setups und Hardware-Tipps von einem, der selbst zockt.</p>
+    </header>
 
-    <section class="build">
-      <h2>🎮 Gaming-Build (~1500 €)</h2>
-      <img src="https://cdn.idealo.com/folder/Product/2031/9/2031957/s11_produktbild_max/geforce-rtx-4070-ti.jpg" alt="Gaming PC Build">
-      <p><a href="https://geizhals.de/wishlists/4408887" target="_blank">Zur Wunschliste auf Geizhals</a></p>
-    </section>
+    <!-- Main Content -->
+    <main>
+        <section id="about">
+            <h2>Wer ich bin</h2>
+            <p>Ich bin Raphael aka Slappcuzz, und das hier ist mein kleines Herzensprojekt...</p>
+        </section>
 
-    <section class="build">
-      <h2>📹 Streaming-Build</h2>
-      <img src="https://cdn.idealo.com/folder/Product/2032/2/2032257/s11_produktbild_max/geforce-rtx-4090.jpg" alt="Streaming PC Build">
-      <p><a href="https://geizhals.de/wishlists/4408923" target="_blank">Zur Wunschliste auf Geizhals</a></p>
-    </section>
+        <section id="builds">
+            <h2>Gaming-Bauten</h2>
+            <p>Hier findest du einige PC-Bauten, die für jedes Budget das Beste bieten.</p>
+            <!-- Beispiel für eingebetteten Geizhals-Link -->
+            <a href="https://geizhals.de/wishlists/4408924" target="_blank">Sieh dir die Geizhals-Listen an!</a>
+        </section>
 
-    <section class="build">
-      <h2>🧠 AI / Workstation-Build</h2>
-      <img src="https://cdn.idealo.com/folder/Product/2034/2/2034209/s11_produktbild_max/geforce-rtx-4080-super.jpg" alt="AI PC Build">
-      <p><a href="https://geizhals.de/wishlists/4408925" target="_blank">Zur Wunschliste auf Geizhals</a></p>
-    </section>
+        <!-- Kontakt -->
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Schreib mir auf Discord: <strong>Slappcuzz#9841</strong></p>
+            <a href="https://discord.gg/yjUKJ33F" target="_blank">Join unserem Discord!</a>
+        </section>
+    </main>
 
-    <section class="build">
-      <h2>🤫 Silent-Build</h2>
-      <img src="https://cdn.idealo.com/folder/Product/2030/4/2030415/s11_produktbild_max/geforce-rtx-4060.jpg" alt="Silent PC Build">
-      <p><a href="https://geizhals.de/wishlists/4408922" target="_blank">Zur Wunschliste auf Geizhals</a></p>
-    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Raphael / Slappcuzz</p>
+    </footer>
 
-    <section class="build">
-      <h2>🖱️ Peripherie</h2>
-      <img src="https://cdn.idealo.com/folder/Product/2030/2/2030278/s11_produktbild_max/razer-deathadder-v2.jpg" alt="Peripherie">
-      <p><a href="https://geizhals.de/wishlists/4427631" target="_blank">Zur Wunschliste auf Geizhals</a></p>
-    </section>
-
-  </div>
 </body>
 </html>
